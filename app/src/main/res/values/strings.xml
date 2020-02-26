@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">E-BloodBank</string>
+    <string-array name="gender">
+        <item> Select ur Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="districtss">
+        <item>Select your District</item>
+        <item>GUNTUR</item>
+        <item>KURN00L</item>
+        <item>KRISHNA</item>
+        <item>CHITTOOR</item>
+        <item>NELLORE</item>
+        <item>PRAKASAM</item>
+        <item>ANANTAPUR</item>
+        <item>VIZIANAGARAM</item>
+        <item>SRIKAKULAM</item>
+        <item>E.GODAVARI</item>
+        <item>W.GODAVARI</item>
+        <item>VISAKHAPATNAM</item>
+        <item>KADAPA</item>
+
+    </string-array>
+    <string-array name="branches">
+        <item>SELECT YOUR BLOOD GROUP</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+<string-array name="update">
+<item>Select your District</item>
+<item>GUNTUR</item>
+<item>KURN00L</item>
+<item>KRISHNA</item>
+<item>CHITTOOR</item>
+<item>NELLORE</item>
+<item>PRAKASAM</item>
+<item>ANANTAPUR</item>
+<item>VIZIANAGARAM</item>
+<item>SRIKAKULAM</item>
+<item>E.GODAVARI</item>
+<item>W.GODAVARI</item>
+<item>VISAKHAPATNAM</item>
+<item>KADAPA</item>
+
+</string-array>
+
+
+    </resources>

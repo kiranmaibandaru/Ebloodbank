@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+                android:src="@drawable/logo"
+                />
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="#EEF1F5"
+            android:textColor="#0D47A1"
+            android:textColorHint="#141414"
+            android:layout_marginTop="35sp"
+            android:hint="Login"
+            android:onClick="login"
+            android:textSize="28sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:onClick="bloodbankinap"
+            android:layout_width="285dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:background="#F1F1F1"
+            android:hint="BloodBank in AP"
+            android:padding="10dp"
+            android:textColorHint="#101011"
+
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+        <Button
+            android:onClick="receiver"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:background="#F1F1F1"
+            android:textColorHint="#0A0A0A"
+            android:hint="Receiver"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+        <Button
+            android:onClick="bloodcampaign"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:background="#F1F1F1"
+            android:hint="Blood campaign"
+            android:padding="10dp"
+            android:textColorHint="#0F1011"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+
+
+
+</LinearLayout>

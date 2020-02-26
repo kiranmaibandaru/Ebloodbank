@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loginbackground"
+    tools:context=".Update">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Phone number"
+        android:id="@+id/phno"
+        />
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/updatespinner"
+        android:entries="@array/update"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:background="#FFFFFF"
+        android:textColor="#0D47A1"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:onClick="update"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
